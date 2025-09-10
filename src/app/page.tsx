@@ -5,6 +5,7 @@ import Announcements from '@/components/sections/announcements';
 import FeatureCards from '@/components/sections/feature-cards';
 import PartnerLogos from '@/components/sections/partner-logos';
 import Footer from '@/components/sections/footer';
+import AnnualCalendar from '@/components/sections/annual-calendar';
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
         <Announcements />
         <FeatureCards />
         <PartnerLogos />
+        <AnnualCalendar />
       </main>
       
       <Footer />
